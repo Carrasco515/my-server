@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mein-server
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mein-server
+  template:
+    metadata:
+      labels:
+        app: mein-server
+    spec:
+      containers:
+        - name: mein-server
+          image: mein-server-server:latest
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 8000
