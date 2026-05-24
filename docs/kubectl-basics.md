@@ -26,3 +26,13 @@ In this project the readiness probe checks:
 
 ```bash
 /health
+## ConfigMap
+
+A ConfigMap is used to store configuration outside of the application code.
+
+In this project the ConfigMap contains:
+
+```bash
+APP_ENV=kubernetes
+APP_NAME=Mein Server API
+APP_VERSION=1.0.0
