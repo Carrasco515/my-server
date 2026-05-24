@@ -36,3 +36,12 @@ In this project the ConfigMap contains:
 APP_ENV=kubernetes
 APP_NAME=Mein Server API
 APP_VERSION=1.0.0
+## Kubernetes Secret
+
+A Secret is used to store sensitive configuration such as API keys, passwords or tokens.
+
+In this project the Secret contains dummy learning values:
+
+```bash
+API_KEY=dummy-api-key-for-learning
+DB_PASSWORD=dummy-password-for-learning
