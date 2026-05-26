@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: mein-server
-          image: mein-server-server:v1
+          image: mein-server-server:v2
           imagePullPolicy: Never
           ports:
             - containerPort: 8000

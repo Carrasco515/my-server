@@ -12,7 +12,7 @@ app = FastAPI(
 @app.get("/")
 def home():
     return {
-        "message": "Mein Server läuft erfolgreich!",
+        "message": "Mein Server läuft erfolgreich in Version 2!",
         "status": "online"
     }
 
