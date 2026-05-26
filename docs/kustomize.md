@@ -19,3 +19,10 @@ kubernetes
       configmap.yaml
       secret.yaml
       kustomization.yaml
+
+## Production overlay
+
+The project also includes a production overlay.
+
+```text
+kubernetes/overlays/prod
