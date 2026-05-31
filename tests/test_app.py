@@ -21,7 +21,7 @@ def test_health_endpoint():
 
 
 def test_config_endpoint(monkeypatch):
-    monkeypatch.setenv("APP_NAME", "Mein Server API")
+    monkeypatch.setenv("APP_NAME", "My Server API")
     monkeypatch.setenv("APP_VERSION", "1.0.0")
     monkeypatch.setenv("APP_ENV", "test")
 
@@ -29,7 +29,7 @@ def test_config_endpoint(monkeypatch):
 
     assert response.status_code == 200
     assert response.json() == {
-        "app_name": "Mein Server API",
+        "app_name": "My Server API",
         "app_version": "1.0.0",
         "app_env": "test",
     }

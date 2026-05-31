@@ -3,7 +3,7 @@ import os
 from fastapi import FastAPI
 
 app = FastAPI(
-    title="Mein Server API",
+    title="My Server API",
     description="My first Dockerized FastAPI application",
     version="1.0.0"
 )
@@ -12,7 +12,7 @@ app = FastAPI(
 @app.get("/")
 def home():
     return {
-        "message": "Mein Server läuft erfolgreich in Version 2!",
+        "message": "My server is running successfully in version 2!",
         "status": "online"
     }
 

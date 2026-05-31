@@ -34,7 +34,7 @@ In this project the ConfigMap contains:
 
 ```bash
 APP_ENV=kubernetes
-APP_NAME=Mein Server API
+APP_NAME=My Server API
 APP_VERSION=1.0.0
 ## Kubernetes Secret
 

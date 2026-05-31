@@ -1,4 +1,4 @@
-# Mein Server
+# My Server
 [![CI](https://github.com/Carrasco515/mein-server/actions/workflows/ci.yml/badge.svg)](https://github.com/Carrasco515/mein-server/actions/workflows/ci.yml)
 
 This is my first practical DevOps learning project.
